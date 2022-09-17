@@ -1,5 +1,5 @@
 import UserItem from "./user-item";
-import classes from "../events/event-list.module.css"
+import classes from "./user-list.module.css"
 
 function UserList(props) {
   const { items } = props;
@@ -12,6 +12,7 @@ function UserList(props) {
           id={user.id}
           name={user.name}
           image={user.image}
+          link={user.link}
         />
       ))}
     </ul>
