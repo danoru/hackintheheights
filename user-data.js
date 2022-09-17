@@ -1,45 +1,44 @@
-const EVENT_DATA = [
+const USER_DATA = [
   {
     id: "p1",
-    name: "Anna"
+    name: "Anna",
+    image: "images/anna.jpg",
+    isFeatured: true
   },
   {
     id: "p2",
-    name: "Corrie"
+    name: "Corrie",
+    image: "images/corrie.jpg",
+    isFeatured: true
   },
   {
     id: "p3",
-    name: "Daniel"
+    name: "Daniel",
+    image: "images/daniel.jpg",
+    isFeatured: true
   },
   {
     id: "p4",
-    name: "Meagan"
+    name: "Meagan",
+    image: "images/meagan.jpg",
+    isFeatured: true
   },
   {
     id: "p5",
-    name: "Sam"
+    name: "Sam",
+    image: "images/sam.jpg",
+    isFeatured: true
   },
 ];
 
-export function getFeaturedEvents() {
-  return EVENT_DATA.filter((event) => event.isFeatured);
+export function getFeaturedUsers() {
+  return USER_DATA.filter((user) => user.isFeatured);
 }
 
-export function getAllEvents() {
-  return EVENT_DATA;
+export function getAllUsers() {
+  return USER_DATA;
 }
 
-export function getFilteredEvents(dateFilter) {
-  const { year, month } = dateFilter;
-
-  let filteredEvents = EVENT_DATA.filter((event) => {
-    const eventDate = new Date(event.date);
-    return eventDate.getFullYear() === year && eventDate.getMonth() === month - 1;
-  });
-
-  return filteredEvents;
-}
-
-export function getEventById(id) {
-  return EVENT_DATA.find((event) => event.id === id);
+export function getUserById(id) {
+  return USER_DATA.find((user) => user.id === id);
 }
