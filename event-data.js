@@ -4,8 +4,8 @@ const EVENT_DATA = [
     title: "Hackathon 2022: Young Frankenstein",
     description:
       "You know, I'm a rather brilliant programmer. Perhaps I can help you with that code.",
-    location: "2401 S Hacienda Blvd, Hacienda Heights CA",
-    date: "2022-09-16",
+    location: "Hacienda Heights CA",
+    date: "2022-09-24",
     image: "images/coding-event.jpg",
     isFeatured: true,
   },
