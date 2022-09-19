@@ -9,7 +9,7 @@ function IdeaList() {
         <p>A Chrome extension that gives you reminders to move/stretch throughout your work day and offers potential exercises via Youtube.</p>
       </div>
       <div className={classes.item}>
-        <h3>Post Death</h3>
+        <h3>Post-Death</h3>
         <h4>End-of-Life Planner</h4>
         <p>A web application that allows users to put together all of their end-of-life planning information in a single, convenient space for your loved ones to reference in the end.</p>
       </div>
@@ -26,7 +26,7 @@ function IdeaList() {
       <div className={classes.item}>
         <h3>Writer's Box</h3>
         <h4>Hub for Randomly-Generated Content</h4>
-        <p>A web application with a variety of lists (town names, NPC names, store inventories, etc.) that can be used to quickly generate things a dungeonmaster/creative might need in a pinch.</p>
+        <p>A web application with a variety of lists (town names, NPC names, store inventories, etc.) that can be used to quickly generate things a creative might need in a pinch.</p>
       </div>
     </div>
   );
