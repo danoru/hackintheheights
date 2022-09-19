@@ -27,12 +27,17 @@
 }
 
 .content h2 {
+  font-size: clamp(0.65rem, 0.2196rem + 1.9130vw, 1.75rem);
   margin: 0.5rem 0;
 }
-
+ 
 @media (max-width: 700px) {
-.content {
-  font-size: .5rem;
-  padding: 0 .20rem;
-}
+  .content {
+    padding: 0 .10rem;
+  }
+
+  .portrait {
+    height: 100px;
+    width: 100px;
+  }
 }
